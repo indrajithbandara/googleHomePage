@@ -1,0 +1,11 @@
+.outer_div{
+	position: absolute;
+	bottom: 50%;
+	width: 100%;
+
+}
+
+.center_div {
+	margin: 0 auto;
+	width: 250px;
+}
