@@ -9,3 +9,19 @@
 	margin: 0 auto;
 	width: 250px;
 }
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.input-width {
+	width: 300px; 
+}
+
+.padding-top {
+	padding-top: 20px;
+}
+
+.padding-bottom {
+	padding-bottom: 20px;
+}
