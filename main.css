@@ -1,3 +1,16 @@
+.button {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 9px 4px;
+	padding: 0 16px;
+	height: 36px;
+}
+
 .outer_div{
 	position: absolute;
 	bottom: 50%;
@@ -10,6 +23,15 @@
 	width: 250px;
 }
 
+.column_center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.small_font {
+	font-size: 13px;
+}
 .inline-flex {
   display: inline-flex;
 }
@@ -24,4 +46,12 @@
 
 .padding-bottom {
 	padding-bottom: 20px;
+}
+
+#searchBox {
+	border: 1px;
+	border-color: #f2f2f2;
+	box-shadow:1px 1px 5px grey;  
+	height: 50px;
+	width: 500px;
 }
