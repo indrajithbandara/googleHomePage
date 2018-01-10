@@ -1,3 +1,42 @@
+nav {
+	margin: 25px;
+}
+
+nav a {
+	float: right;
+	margin: 10px;
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+
+ul {
+	list-style:none;
+}
+
+.btn {
+    background-color:  #4885ed; /* Green */
+    border: none;
+	color: white;
+	float: right;
+    text-align: center;
+    text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+    margin: 4px 2px;
+	cursor: pointer;
+	padding: 8px 13px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 100px;
+}
+
+
+
+
 .button {
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
@@ -11,12 +50,13 @@
 	height: 36px;
 }
 
-.outer_div{
+/* .outer_div{
 	position: absolute;
 	bottom: 50%;
 	width: 100%;
 
-}
+	See container
+} */
 
 .center_div {
 	margin: 0 auto;
@@ -56,7 +96,3 @@
 	width: 500px;
 }
 
-nav a {
-	float: right;
-	margin-left: 10px;
-}
