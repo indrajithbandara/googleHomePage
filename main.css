@@ -55,3 +55,8 @@
 	height: 50px;
 	width: 500px;
 }
+
+nav a {
+	float: right;
+	margin-left: 10px;
+}
