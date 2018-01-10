@@ -71,6 +71,7 @@ ul {
 }
 .small_font {
 	font-size: 13px;
+	text-align: center;
 }
 .inline-flex {
   display: inline-flex;
@@ -95,4 +96,23 @@ ul {
 	height: 50px;
 	width: 500px;
 }
+
+@media screen and (max-width: 550px) {
+	nav {
+		margin: 0;
+	}
+	.center_div {
+		margin: 0 auto;
+		width: 0;
+	}
+	#searchBox {
+		border: 1px solid  #f2f2f2;	
+		box-shadow: 1px 1px 5px grey;
+		height: 50px;
+		width: 250px;
+	}
+	.small_font {
+		font-size: 10px;
+	}
+  }
 
