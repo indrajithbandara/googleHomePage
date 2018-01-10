@@ -34,9 +34,6 @@ ul {
 	padding: 100px;
 }
 
-
-
-
 .button {
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
@@ -96,6 +93,42 @@ ul {
 	height: 50px;
 	width: 500px;
 }
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #f9f9f9;
+	color: 000;
+ }
+
+ .navbar-nav {
+	float: left;
+	display: inline-flex;
+	font-size: 13px;
+}
+
+.navbar-nav a {
+	color: #97a7a7;
+	text-decoration: none;
+	margin: 15px
+}
+
+.navbar-right {
+    float: right !important;
+	margin: 15px;
+	display: inline-flex;
+	font-size: 13px;
+}
+
+.navbar-right a {
+	color: #97a7a7;
+	text-decoration: none;
+	margin: 15px
+}
+
+
 
 @media screen and (max-width: 550px) {
 	nav {
